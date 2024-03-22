@@ -20,9 +20,19 @@ qt_add_qml_module(Sudoku
         URI SudokuModule
         RESOURCE_PREFIX /
         SOURCES
-        src/main.cpp
+        src/game/SudokuSolver.cpp
+        src/game/SudokuSolver.hpp
+        src/game/Sudoku.cpp
+        src/game/Sudoku.hpp
+        src/game/SudokuGrid.cpp
+        src/game/SudokuGrid.hpp
+        src/game/SudokuGridStyle.cpp
+        src/game/SudokuGridStyle.hpp
         QML_FILES
         src/main.qml
+        src/mainMenu.qml
+        src/game/game.qml
+        src/game/difficultyChoice.qml
 )
 
 target_link_libraries(Sudoku PRIVATE Qt6::Core Qt6::Gui Qt6::Quick Qt6::Qml)
