@@ -28,15 +28,25 @@ qt_add_qml_module(Sudoku
         src/game/SudokuGrid.hpp
         src/game/SudokuGridStyle.cpp
         src/game/SudokuGridStyle.hpp
+        src/records/RecordStorage.cpp
+        src/records/RecordStorage.hpp
+        src/records/constants.hpp
         QML_FILES
         src/main.qml
         src/mainMenu.qml
         src/game/game.qml
         src/game/difficultyChoice.qml
+        src/records/records.qml
 )
 
 target_link_libraries(Sudoku PRIVATE Qt6::Core Qt6::Gui Qt6::Quick Qt6::Qml)
 target_include_directories(Sudoku PUBLIC src src/game src/records)
+
+qt_add_resources(Sudoku "resources"
+        PREFIX "/"
+        FILES ./resources/language.png
+        ./resources/languages.json
+)
 
  if (ANDROID)
      set_target_properties(Sudoku PROPERTIES
