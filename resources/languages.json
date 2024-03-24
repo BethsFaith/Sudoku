@@ -1,0 +1,250 @@
+{
+  "ru": [
+    {
+      "name" : "playButton",
+      "value" : "Играть"
+    },
+    {
+      "name" : "recordButton",
+      "value" : "Рекорды"
+    },
+    {
+      "name" : "exitButton",
+      "value" : "Выход"
+    },
+    {
+      "name" : "easyLevel",
+      "value" : "Легко"
+    },
+    {
+      "name" : "mediumLevel",
+      "value" : "Нормально"
+    },
+    {
+      "name" : "hardLevel",
+      "value" : "Сложно"
+    },
+    {
+      "name" : "extremeLevel",
+      "value" : "Экстремально"
+    },
+    {
+      "name" : "hintButton",
+      "value" : "Подсказка"
+    },
+    {
+      "name" : "time",
+      "value" : "Секундомер"
+    },
+    {
+      "name" : "winDialog",
+      "value" : "Победа"
+    },
+    {
+      "name" : "winDialogContent",
+      "value" : "Завершено за %1 сек\n Начать новую игру?"
+    },
+    {
+      "name" : "okButton",
+      "value" : "Да"
+    },
+    {
+      "name" : "cancelButton",
+      "value" : "Нет"
+    },
+    {
+      "name" : "exitDialog",
+      "value" : "Выход"
+    },
+    {
+      "name" : "exitDialogContent",
+      "value" : "Вы уверены?"
+    }
+  ],
+  "en": [
+    {
+      "name" : "playButton",
+      "value" : "Play"
+    },
+    {
+      "name" : "recordButton",
+      "value" : "Records"
+    },
+    {
+      "name" : "exitButton",
+      "value" : "Exit"
+    },
+    {
+      "name" : "easyLevel",
+      "value" : "Easy"
+    },
+    {
+      "name" : "mediumLevel",
+      "value" : "Medium"
+    },
+    {
+      "name" : "hardLevel",
+      "value" : "Hard"
+    },
+    {
+      "name" : "extremeLevel",
+      "value" : "Extreme"
+    },
+    {
+      "name" : "hintButton",
+      "value" : "Hint"
+    },
+    {
+      "name" : "time",
+      "value" : "Seconds"
+    },
+    {
+      "name" : "winDialog",
+      "value" : "Win!"
+    },
+    {
+      "name" : "winDialogContent",
+      "value" : "Completed for %1 seconds\n Do you wanna\n start new game?"
+    },
+    {
+      "name" : "okButton",
+      "value" : "Yes"
+    },
+    {
+      "name" : "cancelButton",
+      "value" : "No"
+    },
+    {
+      "name" : "exitDialog",
+      "value" : "Exit"
+    },
+    {
+      "name" : "exitDialogContent",
+      "value" : "Are you sure?"
+    }
+  ],
+  "sp": [
+    {
+      "name" : "playButton",
+      "value" : "Jugar"
+    },
+    {
+      "name" : "recordButton",
+      "value" : "Registros"
+    },
+    {
+      "name" : "exitButton",
+      "value" : "Salir"
+    },
+    {
+      "name" : "easyLevel",
+      "value" : "Fácilmente"
+    },
+    {
+      "name" : "mediumLevel",
+      "value" : "Promedio"
+    },
+    {
+      "name" : "hardLevel",
+      "value" : "Difícil"
+    },
+    {
+      "name" : "extremeLevel",
+      "value" : "Extremo"
+    },
+    {
+      "name" : "hintButton",
+      "value" : "Clave"
+    },
+    {
+      "name" : "time",
+      "value" : "Segundos"
+    },
+    {
+      "name" : "winDialog",
+      "value" : "Victoria!"
+    },
+    {
+      "name" : "winDialogContent",
+      "value" : "Completado en %1 5 segundos\n ¿Quieres empezar\n un nuevo juego?"
+    },
+    {
+      "name" : "okButton",
+      "value" : "Sí"
+    },
+    {
+      "name" : "сancelButton",
+      "value" : "No"
+    },
+    {
+      "name" : "exitDialog",
+      "value" : "Salida"
+    },
+    {
+      "name" : "exitDialogContent",
+      "value" : "¿Está seguro?"
+    }
+  ],
+  "ch": [
+    {
+      "name" : "playButton",
+      "value" : "玩"
+    },
+    {
+      "name" : "recordButton",
+      "value" : "記錄"
+    },
+    {
+      "name" : "exitButton",
+      "value" : "出去"
+    },
+    {
+      "name" : "easyLevel",
+      "value" : "容易地"
+    },
+    {
+      "name" : "mediumLevel",
+      "value" : "平均的"
+    },
+    {
+      "name" : "hardLevel",
+      "value" : "難的"
+    },
+    {
+      "name" : "extremeLevel",
+      "value" : "極端"
+    },
+    {
+      "name" : "hintButton",
+      "value" : "線索"
+    },
+    {
+      "name" : "time",
+      "value" : "時間"
+    },
+    {
+      "name" : "winDialog",
+      "value" : "勝利"
+    },
+    {
+      "name" : "winDialogContent",
+      "value" : "完成於 %1 秒數\n 你想開始一個新遊戲嗎？"
+    },
+    {
+      "name" : "okButton",
+      "value" : "是的"
+    },
+    {
+      "name" : "cancelButton",
+      "value" : "不"
+    },
+    {
+      "name" : "exitDialog",
+      "value" : "出去"
+    },
+    {
+      "name" : "exitDialogContent",
+      "value" : "你確定嗎？"
+    }
+  ]
+}

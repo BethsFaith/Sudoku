@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-set(CMAKE_PREFIX_PATH "D:/CPlusPlus/libs/Qt/qt6/install-debug-mingw")
 set (CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 set (QT_QUICK_CONTROLS_IGNORE_CUSTOMIZATION_WARNINGS TRUE)
@@ -31,9 +30,12 @@ qt_add_qml_module(Sudoku
         src/records/RecordStorage.cpp
         src/records/RecordStorage.hpp
         src/records/constants.hpp
+        src/LabelStorage.cpp
+        src/LabelStorage.hpp
         QML_FILES
         src/main.qml
         src/mainMenu.qml
+        src/languages.qml
         src/game/game.qml
         src/game/difficultyChoice.qml
         src/records/records.qml
