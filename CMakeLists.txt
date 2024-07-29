@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-set(CMAKE_PREFIX_PATH "D:/CPlusPlus/libs/Qt/qt6/install-debug-mingw")
 set (CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 set (QT_QUICK_CONTROLS_IGNORE_CUSTOMIZATION_WARNINGS TRUE)
@@ -20,13 +19,36 @@ qt_add_qml_module(Sudoku
         URI SudokuModule
         RESOURCE_PREFIX /
         SOURCES
-        src/main.cpp
+        src/game/SudokuSolver.cpp
+        src/game/SudokuSolver.hpp
+        src/game/Sudoku.cpp
+        src/game/Sudoku.hpp
+        src/game/SudokuGrid.cpp
+        src/game/SudokuGrid.hpp
+        src/game/SudokuGridStyle.cpp
+        src/game/SudokuGridStyle.hpp
+        src/records/RecordStorage.cpp
+        src/records/RecordStorage.hpp
+        src/records/constants.hpp
+        src/LabelStorage.cpp
+        src/LabelStorage.hpp
         QML_FILES
         src/main.qml
+        src/mainMenu.qml
+        src/languages.qml
+        src/game/game.qml
+        src/game/difficultyChoice.qml
+        src/records/records.qml
 )
 
 target_link_libraries(Sudoku PRIVATE Qt6::Core Qt6::Gui Qt6::Quick Qt6::Qml)
 target_include_directories(Sudoku PUBLIC src src/game src/records)
+
+qt_add_resources(Sudoku "resources"
+        PREFIX "/"
+        FILES ./resources/language.png
+        ./resources/languages.json
+)
 
  if (ANDROID)
      set_target_properties(Sudoku PROPERTIES
